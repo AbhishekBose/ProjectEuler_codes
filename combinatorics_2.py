@@ -1,20 +1,13 @@
+"""
+Solution to project euler question number 53
+"""
+
+
 MAX_N = 100
 MAX_VALUE = 10**6
 
 #%%
 
-
-# def factorial(n):
-#     if n==0:
-#         val = 1
-#     if n ==1:
-#         val = 1
-#     else:
-#         val= n*factorial(n-1)
-#     if n not in fact_list.keys():
-#         fact_list[n]=val
-#     print(val)
-#     return val
 def factorial(val):
     fact_list=[]
     fact_list.append(1)

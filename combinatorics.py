@@ -1,3 +1,6 @@
+"""
+Solution to project euler question number 53
+"""
 MAX_N = 100
 MAX_VALUE = 10**6
 

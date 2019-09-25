@@ -1,5 +1,5 @@
 """
-Solution to project euler question number 53
+Solution to project euler question number 53. Implementation using DP
 """
 
 

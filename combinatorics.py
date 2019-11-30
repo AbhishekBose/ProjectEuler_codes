@@ -3,7 +3,7 @@ Solution to project euler question number 53
 """
 MAX_N = 100
 MAX_VALUE = 10**6
-
+#%%
 def factorial(n):
     if n==0:
         return 1
@@ -11,11 +11,12 @@ def factorial(n):
         return 1
     else:
         return n*factorial(n-1)
-
+#%%
 
 def Ncr(n,r):
     ncr = factorial(n)/float((factorial(r)*factorial(n-r)))
     return ncr
+
 if __name__ == "__main__":
     print(factorial(1))
     print(MAX_VALUE)

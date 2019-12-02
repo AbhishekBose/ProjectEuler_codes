@@ -32,6 +32,8 @@ for n in range(0,len(all_primes)):
         rem = expr(all_primes[n],n+1)
         if rem > 10**10:
             print('Max rem is:::',rem)
+            print('Ma value of N is::',n)
+            break
     
 # %%
 del(all_primes)
